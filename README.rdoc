@@ -1,0 +1,11 @@
+= Time Decaying Bloom Filter
+
+Much like a bloom-filter except keys inserted decay over-time. 
+
+== Usage
+
+The configuration is identical to http://github.com/igrigorik/bloomfilter except you have two extra options, time and count. The TTL of any given key is time * count.
+
+== There is much more to say!
+
+But this is version 0.0.1. I'll write more about it later. (And commit some tests and what not.)
